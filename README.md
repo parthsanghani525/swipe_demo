@@ -1,16 +1,12 @@
-# image_swipe_demo
+# swipe_demo
 
-A new Flutter project.
+State Management: **GetX**.\
+Flutter 3.7.10
 
-## Getting Started
+This project is demo aanimation same as bumble.
 
-This project is a starting point for a Flutter application.
+**Upwork Profile** https://www.upwork.com/freelancers/~011b067d50887ff727
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/parthsanghani525/swipe_demo/assets/81968386/5a2bcc93-82b1-4dce-a7bb-a8c3c121e74d
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
