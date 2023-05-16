@@ -87,21 +87,17 @@ class _CardStackWidgetState extends State<CardStackWidget>
                               ),
                             ),
                             child: CardWidget(
-                              isRemove: index == controller.selectedIndex,
                               index: index,
                               image: controller.images[index],
                               swipeNotifier: controller.swipeNotifier,
-                              isLastCard: true,
                             ),
                           ),
                         );
                       } else {
                         return CardWidget(
-                          isRemove: index == controller.selectedIndex,
                           index: index,
                           image: controller.images[index],
                           swipeNotifier: controller.swipeNotifier,
-                          isLastCard: false,
                         );
                       }
                     }),

@@ -3,19 +3,14 @@ import 'package:image_swipe_demo/screens/homePage/view/widget/profile_card.dart'
 import 'package:image_swipe_demo/utility/constant/swipe_enum.dart';
 
 class CardWidget extends StatelessWidget {
-  // final Profile profile;
   final int index;
   final ValueNotifier<Swipe> swipeNotifier;
-  final bool isLastCard;
   final String? image;
-  final bool? isRemove;
 
   const CardWidget(
       {Key? key,
       required this.index,
       required this.swipeNotifier,
-      required this.isLastCard,
-      this.isRemove = false,
       this.image})
       : super(key: key);
 
@@ -32,8 +27,8 @@ class CardWidget extends StatelessWidget {
             return RotationTransition(
               turns: swipeNotifier.value != Swipe.none
                   ? swipeNotifier.value == Swipe.left
-                      ? const AlwaysStoppedAnimation(-15 / 360)
-                      : const AlwaysStoppedAnimation(15 / 360)
+                      ? const AlwaysStoppedAnimation(-5 / 360)
+                      : const AlwaysStoppedAnimation(5 / 360)
                   : const AlwaysStoppedAnimation(0),
               child: ProfileCard(
                 image: image,
